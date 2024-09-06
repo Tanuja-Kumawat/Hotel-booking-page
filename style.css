@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('hotel.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.hotel-card {
+    position: relative;
+    width: 300px;
+    background-color: #000000e6;
+    color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.hotel-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px; 
+    border-radius: 10px;
+}
+
+.hotel-name {
+    font-family: 'Bree Serif', serif;
+    margin: 0;
+    font-size: 20px; 
+}
+
+.hotel-price {
+    margin: 5px 0; 
+    font-size: 15px; 
+}
+
+.book-now {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px; 
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 15px; 
+    transition: background-color 0.3s ease;
+}
+
+.book-now:hover {
+    background-color: #f0f0f0;
+}
